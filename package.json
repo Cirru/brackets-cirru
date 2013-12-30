@@ -1,0 +1,12 @@
+{
+    "name": "cirru",
+    "title": "Cirru Syntax",
+    "description": "Syntax highlight package for Cirru grammar.",
+    "homepage": "https://github.com/Cirru/brackets-cirru",
+    "version": "0.0.1",
+    "author": "JiyinYiyong.me",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    }
+}
