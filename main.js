@@ -17,6 +17,9 @@ define(function(require, exports, module) {
         if (stream.match("$")) {
           state.head = true;
           return "comment";
+        } else if (stream.match(',')) {
+          state.head = false;
+          return 'bracket';
         } else if (stream.match(/^[^\$\"\s\(\)][^\"\s\(\)]*/)) {
           if (state.head) {
             state.head = false;

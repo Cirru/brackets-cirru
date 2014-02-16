@@ -3,8 +3,8 @@
     "title": "Cirru Syntax",
     "description": "Syntax highlight package for Cirru grammar.",
     "homepage": "https://github.com/Cirru/brackets-cirru",
-    "version": "0.0.1",
-    "author": "JiyinYiyong.me",
+    "version": "0.0.2",
+    "author": "tiye.me",
     "license": "MIT",
     "engines": {
         "brackets": ">=0.24.0"
